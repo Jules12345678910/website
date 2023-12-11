@@ -1,0 +1,127 @@
+body {
+  background: url('montagne.png') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: rgb(0, 0, 128); 
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+#card-1 {
+  text-align: center;
+}
+
+.para {
+  font-family: 'Arial', sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+a {
+  padding: 6px;
+  border-radius: 4px;
+  font-size: 20px;
+  display: inline;
+  position: relative;
+  text-transform: uppercase;
+  color: blue;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  background: rgb(173, 216, 230); 
+}
+
+li {
+  margin-bottom: 20px;
+  text-align: center;
+  list-style-type: none;
+}
+
+a:hover {
+  background: rgb(173, 216, 230); 
+}
+
+h3 {
+  font-weight: bold;
+  color: rgb(0, 0, 128); 
+  font-size: 18px;
+}
+
+#img-circle {
+  width: 450px; 
+  height: 450px; 
+  border-radius: 50%;
+}
+
+.card-white {
+  background: rgb(173, 216, 230); 
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgb(255, 63, 47);
+  margin: 0px auto;
+  width: 700px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+form {
+  margin: 0px auto;
+}
+
+.banner {
+  background: none;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column; 
+  padding: 20px;
+}
+
+.card img {
+  width: 450px; 
+}
+
+.card h3 {
+  padding-left: 20px;
+}
+
+#img {
+  border-radius: 50%;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+}
+
+.card {
+  flex-basis: 250px;
+  flex-grow: 1;
+  margin: 10px;
+}
+
+#form {
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
